@@ -7,7 +7,7 @@
 import numpy as np
 
 #Number of samples
-R = 250
+R = 500
 #Size of one sample
 sample_size = 4200
 #Strike price set for the options

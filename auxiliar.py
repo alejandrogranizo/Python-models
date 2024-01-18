@@ -223,4 +223,6 @@ def calculate_confidence_interval(data, mean, variance, confidence_level=0.95):
     lower_bound = mean - margin_of_error
     upper_bound = mean + margin_of_error
 
-    return (lower_bound, upper_bound)
+    return [lower_bound, upper_bound]
+
+        
